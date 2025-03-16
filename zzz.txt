@@ -1,0 +1,149 @@
+pc@DESKTOP-4GHBQ1P MINGW64 ~
+$ ^[[200~
+bash: $'\E[200~': command not found
+
+pc@DESKTOP-4GHBQ1P MINGW64 ~
+$
+pc@DESKTOP-4GHBQ1P MINGW64 ~
+$ ^[[200~
+bash: $'\E[200~': command not found
+
+pc@DESKTOP-4GHBQ1P MINGW64 ~
+$
+import React, { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { motion, AnimatePresence } from "framer-motion";
+import { FcGoogle } from "react-icons/fc";
+
+export default function Home() {
+  const [isLogin, setIsLogin] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [balance, setBalance] = useState(0);
+  const [cardNumber, setCardNumber] = useState("");
+  const [cvv, setCvv] = useState("");
+  const [expiryDate, setExpiryDate] = useState("");
+  const [amount, setAmount] = useState("");
+
+  const handleDeposit = () => {
+    if (cardNumber.length === 16 && cvv.length === 3 && expiryDate && amount > 0) {
+      setBalance(balance + parseFloat(amount));
+      setCardNumber("");
+      setCvv("");
+      setExpiryDate("");
+      setAmount("");
+      alert("تمت إضافة الرصيد بنجاح!");
+    } else {
+      alert("يرجى إدخال بيانات صحيحة للبطاقة والمبلغ");
+    }
+  };
+
+  return (
+    <AnimatePresence mode="wait">
+      {isAuthenticated ? (
+        <motion.div
+          key="dashboard"
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -50 }}
+          transition={{ duration: 0.5 }}
+          className="min-h-screen text-white bg-gray-900 p-10"
+        >
+          <h1 className="text-3xl font-bold text-gold-500">مرحبًا بك في لوحة التحكم</h1>
+
+bash: pc@DESKTOP-4GHBQ1P: command not found
+bash: $: command not found
+bash: bash:: command not found
+bash: pc@DESKTOP-4GHBQ1P: command not found
+bash: $: command not found
+bash: import: command not found
+bash: import: command not found
+bash: import: command not found
+bash: import: command not found
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `{'
+bash: syntax error near unexpected token `balance'
+bash: syntax error near unexpected token `""'
+bash: syntax error near unexpected token `""'
+bash: syntax error near unexpected token `""'
+bash: syntax error near unexpected token `""'
+bash: syntax error near unexpected token `"تمت إضافة الرصيد بنجاح!"'
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `"يرجى إدخال بيانات صحيحة للبطاقة والمبلغ"'
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `}'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `('
+bash: motion.div: No such file or directory
+bash: opacity:: command not found
+bash: opacity:: command not found
+bash: opacity:: command not found
+bash: duration:: command not found
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: {/*: No such file or directory
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: {/*: No such file or directory
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: input: No such file or directory
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: input: No such file or directory
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: input: No such file or directory
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: input: No such file or directory
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `('
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `)'
+bash: motion.div: No such file or directory
+bash: opacity:: command not found
+bash: opacity:: command not found
+bash: opacity:: command not found
+bash: duration:: command not found
+bash: backgroundImage:: command not found
+bash: backgroundSize:: command not found
+bash: backgroundPosition:: command not found
+bash: }}: command not found
+bash: syntax error near unexpected token `newline'
+bash: {/*: No such file or directory
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `)'
+bash: syntax error near unexpected token `newline'
+bash: syntax error near unexpected token `)'
+bash: syntax error near unexpected token `}'
+
+pc@DESKTOP-4GHBQ1P MINGW64 ~
+$
